@@ -11,15 +11,15 @@
 #include <PubSubClient.h>
 #include <WiFiClient.h>
 //###########################################################################
-#define button 12     // Button for Webupdate
-#define mqtt_user "mqtt-hassio"
-#define mqtt_password "SHit!2018#"
+#define button 12     // Pin for Webupdate
+#define mqtt_user "user_CHANGEME" //MQTT Broker User
+#define mqtt_password "pw_CHANGEME!2018#" //MQTT Broker Password
 //###########################################################################
 // Wifi
-const char* ssid = "WLAN-TiloLeoNils";
-const char* password = "4677339572444545";
+const char* ssid = "WLAN-CHANGEME"; //WLAN SSID
+const char* password = "PW_CHANGEME"; //WLAN Password
 // MQTT
-const char* mqtt_server = "192.168.2.57";
+const char* mqtt_server = "192.168.2.57"; //IP Address MQTT Broker
 const char* mqtt_clientId = "dash";
 const char* outTopicMsg = "tekkiebros/dashbutton1/message";
 const char* outTopicVCC = "tekkiebros/dashbutton1/vcc";
