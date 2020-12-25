@@ -12,7 +12,7 @@
 </div>
 
 ## How it works
-The project is based on a ESP-01.\
+The project is based on a ESP-01.
 
 With the help of a small button, it is possible send MQTT statements to a MQTT Broker
 
