@@ -14,9 +14,9 @@
 ## How it works
 The project is based on a ESP-01.
 
-With the help of a small button, it is possible send MQTT statements to a MQTT Broker
+With the help of a small button, it is possible to send MQTT statements to a MQTT Broker
 
-The ESP-01 and anything else will be powered by 3 x AAA Batteries.
+The ESP-01 and anything else will be powered by 2 x AAA Batteries.
 
 <img height="300" src="https://www.tekkiebros.de/wp-content/uploads/Smarter-WLAN-Taster.jpg">
 
@@ -25,7 +25,7 @@ The ESP-01 and anything else will be powered by 3 x AAA Batteries.
   - Push Button
   - Battery Clip
   - Wires
-  - 3 x AAA Battery
+  - 2 x AAA Battery
 
 ## How to install
 Clone this repository to your computer or [copy the code](https://github.com/tekkiebros/wifiButton/blob/master/Dashbutton_simple/Dashbutton_simple.ino) and upload it to your ESP-01.
